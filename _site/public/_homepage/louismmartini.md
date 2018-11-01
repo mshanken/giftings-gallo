@@ -1,0 +1,1 @@
+Featuring a balance of wild berries, plum, mocha, and licorice, the 2015 Louis M. Martini Sonoma County Cabernet Sauvignon was produced with grapes primarily sourced from its Frei Ranch vineyards in the Dry Creek Valley and the Barrelli Vineyard in the Alexander Valley. Touches of Merlot, Petite Sirah, and Cabernet Franc heighten the wine’s roundness and depth.

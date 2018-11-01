@@ -1,13 +1,71 @@
-<div class="row">
-	<div class="col-sm-12 jumbotron">
-		<h1 class="display-3">Hello, world!</h1>
-		<p class="lead">This is HTML5 Boilerplate to use along with harp-boilerplate</p>
-		<a href="/" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Learn more</a>
+<div id="article" class="row">
+	<div class="col-12 col-lg-6 text-center font-family-serif">
+		<%- partial("_homepage/topblurb") %>
+	</div>
+	<div class="col-12 col-lg-6 mt-10 mt-md-30 mt-lg-0">
+		<img src="images/giftings-wrapped-bottles.jpg" class="img-fluid" alt="">
+	</div>
+	<div class="col-12 mt-10 mt-md-30">
+		<p class="lead text-center font-family-serif"><em>Learn about wine bottle gifting hacks <a href="https://winesp.ec/gallogifting">here</a>.</em></p>
 	</div>
 </div>
-<div class="row">
-	<div class="col-sm-4 offset-sm-2"><%- partial("_homepage/html5bp") %></div>
-	<div class="col-sm-4"><%- partial("_homepage/bootstrap") %></div>
+<hr class="my-15 my-md-25">
+<div id="sections" class="row">
+	<div class="col-md-12 col-lg-6 text-center">
+		<h2 class="font-family-serif text-primary">Great Wines for Gifting</h2>
+		<p class="font-family-serif font-italic lead">Choose from this curated list of top-rated wines below to match the palate of each person on your list.</p>
+		<div class="row">
+			<%- partial("_themes/default/partials/_content",
+				{
+					image_src: "BFL_GoldLogo.png",
+					image_alt: "",
+					image_url: "",
+					link_title: "",
+					yield: partial("_homepage/bearflag")
+				})
+			%>
+			<%- partial("_themes/default/partials/_content",
+				{
+					image_src: "LogoMCR.png",
+					image_alt: "",
+					image_url: "",
+					link_title: "",
+					yield: partial("_homepage/macmurray")
+				})
+			%>
+		</div>
+	</div>
+	<div class="col-md-12 col-lg-6">
+		<div class="row justify-content-center">
+			<%- partial("_themes/default/partials/_content",
+				{
+					image_src: "LogoTalbott.png",
+					image_alt: "",
+					image_url: "",
+					link_title: "",
+					yield: partial("_homepage/talbott-vineyards")
+				})
+			%>
+			<%- partial("_themes/default/partials/_content",
+				{
+					image_src: "LogoLMRCrown.png",
+					image_alt: "",
+					image_url: "",
+					link_title: "",
+					yield: partial("_homepage/louismmartini")
+				})
+			%>
+			<%- partial("_themes/default/partials/_content",
+				{
+					image_src: "LogoWHE.png",
+					image_alt: "",
+					image_url: "",
+					link_title: "",
+					yield: partial("_homepage/williamhill")
+				})
+			%>
+		</div>
+	</div>
 </div>
 <div class="row">
 	<div class="col-sm-8 offset-sm-2"><%- partial("_homepage/harpjs") %></div>

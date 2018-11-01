@@ -1,0 +1,2 @@
+ The 2016 William Hill Estate Winery Napa Valley Chardonnay shares notes of apple, pear, tropical fruits, and lemon balanced with coconut and baking spices, leading to a finish worthy of a celebratory toast. With grapes selected from several distinct Napa Valley regions, William Hill is a powerful expression of a noble varietal from a New World class appellation.
+ 

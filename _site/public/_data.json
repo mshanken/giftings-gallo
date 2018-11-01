@@ -1,13 +1,10 @@
 {
 	"index": {
-		"title": "Harp Boiler Plate",
-		"site_tagline":"A boilerplate to build a static website dinamically"
+		"title": "Tasteful Tidings",
+		"site_tagline":"Great Wines for Gifting"
 	},
-	"info": {
-		"title": "Your global variables"
-	},
-	"about": {
-		"title": "About page from a sub-dir"
+	"404": {
+		"title": "Page not Found"
 	},
 	"sitemap": {
 		"layout": false

@@ -1,9 +1,12 @@
-<div class="row">
-	<article id="article" class="article col-sm-8" role="main-article">
-		<p>some text</p>
-	</article>            
-
-	<aside id="aside" class="aside col-sm-4" role="sidebar">
-		<%- yield %>
-	</aside>
+<div class="col-12 col-md-6 col-lg-12 text-center">
+<% if ( image_url !== "" ) { %>
+  <a href="<%- image_url %>" title="<%- link_title %>">
+<% } %>
+	<img class="img-fluid" src="images/<%- image_src %>" alt="<%- image_alt %>" title="<%- image_alt %>">
+<% if ( image_url !== "" ) { %>
+  </a>
+<% } %>
+  <div class="card-body text-center">
+    <%- yield %>
+  </div>
 </div>
