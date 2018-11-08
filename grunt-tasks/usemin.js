@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  html: ['www/{,*/}*.html'],
-  css: ['www/css/{,*/}*.css'],
-  js: ['www/js/{,*/}*.js'],
+  html: ['web/{,*/}*.html'],
+  css: ['web/css/{,*/}*.css'],
+  js: ['web/js/{,*/}*.js'],
   options: {
-    dirs: ['www/']
+    dirs: ['web/']
   }
 };

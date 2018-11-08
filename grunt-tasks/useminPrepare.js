@@ -3,7 +3,7 @@
 module.exports = {
   html: '{,*/}.html',
   options: {
-    root: 'www/',
+    root: 'web/',
     dest: './'
   }
 };

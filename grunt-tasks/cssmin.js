@@ -6,7 +6,7 @@ module.exports = {
   		sourceMap: true
   	},
   	files: {
-  		"www/css/build.min.css":"www/css/theme.css"
+  		"web/css/build.min.css":"web/css/theme.css"
   	}
   }
 };

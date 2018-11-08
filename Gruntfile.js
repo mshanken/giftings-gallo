@@ -16,11 +16,11 @@ module.exports = function(grunt) {
         font:   './_site/public/fonts'
       },
       prod: {
-        root:   'www',
-        style:  'www/css',
-        images: 'www/images',
-        script: 'www/js',
-        font:   'www/fonts'
+        root:   'web',
+        style:  'web/css',
+        images: 'web/images',
+        script: 'web/js',
+        font:   'web/fonts'
       }
     }
   };

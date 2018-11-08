@@ -6,14 +6,14 @@ module.exports = {
     tasks: ['jshint'],
   },
 	js: {
-    files: 'www/js/**/*.js',
+    files: 'web/js/**/*.js',
     tasks: ['jshint'],
     options: {
       debounceDelay: 250,
     },
   },
   css: {
-    files: 'www/css/**/*.css',
+    files: 'web/css/**/*.css',
     tasks: ['csslint'],
     options: {
       livereload: true,

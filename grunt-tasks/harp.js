@@ -7,11 +7,11 @@ module.exports = {
   },
   staticserver: {
     server:true,
-    source: 'www',
+    source: 'web',
     port: 8800
   },
   dist: {
     source: '_site',
-    dest: 'www'
+    dest: 'web'
   }
 };
