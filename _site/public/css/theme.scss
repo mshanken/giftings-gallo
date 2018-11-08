@@ -20,9 +20,17 @@
 h1, h2 { font-weight: 100; }
 #header { position: relative; }
 #head p { font-size: 1.1rem; }
-#header .overlap { background-color: rgba(104,0,0,0.5); padding-bottom: 10px; padding-top: 10px; position: absolute; width: 100%; }
+#header .overlap { background-color: rgba(104,0,0,0.5); padding-bottom: 3px; padding-top: 3px; position: absolute; width: 100%; left: 0; }
+#header h1{  font-size: 2.3rem;}
 #article p { margin-bottom: 0; }
 #article .lead { font-size: 1.4rem; }
+@include media-breakpoint-down(xs) {
+	#header .wrapper, #header .overlap {  border-left: 15px solid $white; border-right: 15px solid $white;}
+}
+@include media-breakpoint-up(sm) {
+	#header .overlap {  padding-bottom: 15px; padding-top: 15px; }
+	#header h1{  font-size: 2.5rem;}
+}
 @include media-breakpoint-up(md) {
 	#header h1{  font-size: 3.5rem;}
 	#head p { font-size: 1.4rem; }
@@ -30,6 +38,9 @@ h1, h2 { font-weight: 100; }
 }
 @include media-breakpoint-up(lg) {
 	#header h1{  font-size: 4.4rem;}
+	#header .overlap {  padding-bottom: 30px; padding-top: 30px; }
+}
+@include media-breakpoint-up(xl) {
 	#header .overlap {  padding-bottom: 40px; padding-top: 40px; }
 }
 .afterfooter{ background-color: rgba(104,0,0,1); height: 40px;}
